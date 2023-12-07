@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemies : MonoBehaviour
 {
     //variables for the game
-   
+    Health damage;
 
     public GameObject hitPoints;
 
