@@ -10,7 +10,7 @@ public class Goal : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))  //if the object colling with is the player
         {
-            SceneManager.LoadScene("Level2");       //move to the Level2
+            SceneManager.LoadScene("EndScene");       //move to the EndScene
         }
     }
 }
